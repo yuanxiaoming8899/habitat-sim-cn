@@ -235,7 +235,7 @@ python -m habitat_sim.utils.datasets_download --uids replica_cad_dataset
 
 <span class="pl-c"><span class="pl-c">#</span> with source (from inside habitat_sim/)</span>
 python src_python/habitat_sim/utils/datasets_download.py --uids replica_cad_dataset</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#NOTE: by default, data will be downloaded into habitat-sim/data/. Optionally modify the data path by adding:  `--data-path /path/to/data/`
+    
 # with conda install
 python -m habitat_sim.utils.datasets_download --uids replica_cad_dataset
 
@@ -260,7 +260,7 @@ habitat-viewer --enable-physics --dataset data/replica_cad/replicaCAD.scene_data
 <span class="pl-c"><span class="pl-c">#</span>python</span>
 <span class="pl-c"><span class="pl-c">#</span>NOTE: habitat-sim/ directory must be on your `PYTHONPATH`</span>
 python examples/viewer.py --dataset data/replica_cad/replicaCAD.scene_dataset_config.json --scene apt_1</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#C++
+  
 # ./build/viewer if compiling locally
 habitat-viewer --enable-physics --dataset data/replica_cad/replicaCAD.scene_dataset_config.json -- apt_1
 
