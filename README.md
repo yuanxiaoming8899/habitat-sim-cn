@@ -208,7 +208,7 @@ habitat-viewer /path/to/data/scene_datasets/habitat-test-scenes/skokloster-castl
 <span class="pl-c"><span class="pl-c">#</span>NOTE: depending on your choice of installation, you may need to add '/path/to/habitat-sim' to your PYTHONPATH.</span>
 <span class="pl-c"><span class="pl-c">#</span>e.g. from 'habitat-sim/' directory run 'export PYTHONPATH=$(pwd)'</span>
 python examples/viewer.py --scene /path/to/data/scene_datasets/habitat-test-scenes/skokloster-castle.glb</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#C++
+    
 # ./build/viewer if compiling locally
 habitat-viewer /path/to/data/scene_datasets/habitat-test-scenes/skokloster-castle.glb
 
